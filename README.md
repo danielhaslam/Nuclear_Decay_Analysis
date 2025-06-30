@@ -35,14 +35,34 @@ Finally, the half-lives of each decay process may be calculated directly as:
 
 $t_{1/2} = \frac{\ln2}{\lambda}$.
 
+## Included Files
+
+- `nuclear_decay.py`: Main Python analysis script (converted from original `.pdf`)
+- `Nuclear_data_1.csv`, `Nuclear_data_2.csv`: Raw data files from two detectors (not included here)
+- `nuclear_decay_plot.png`: Graph showing activity vs. time with prediction and outliers
+- `chi_squared_contour_plot.png`: Contour plot showing λₛᵣ and λᵣ_b uncertainty bounds
+
+## Code Functionality
+
+The script:
+
+- Reads, validates, and merges data files
+- Identifies and removes outliers
+- Performs a nonlinear chi-squared minimization to fit both decay constants simultaneously
+- Computes:
+  - λₛᵣ and λᵣ_b (decay constants)
+  - t½ for both isotopes
+  - Uncertainties using contour analysis
+  - χ², reduced χ²
+
 ## Results
 
-With the input of the *Nuclear_data_1.csv* and *Nuclear_data_2.csv* files described above (but not included), the following results arise.
+With the input of the `Nuclear_data_1.csv` and `Nuclear_data_2.csv` files described above (but not included), the following results arise.
 
 Clearly, the χ² minimisation on a parameter grid works well to approximate the activity function. It is found that $\chi_{min}^2 = 127.5$.
 
 ![Activity vs Time](assets/nuclear_decay_plot.png) \
-*Here, the activity function corresponding with the $ \lambda_{Rb} $, $ \lambda_{Sr} $ values, generated from the program's χ² minimisation, is displayed in the red line. The raw data is plotted in the green points, alongside the uncertainties associated with each. The outliers - defined as points where the predicted function is three standard deviations away from the predicted function - are plotted in black. These do not contribute to the minimisation.*
+*Here, the activity function corresponding with the $\lambda_{Rb}$, $ \lambda_{Sr} $ values, generated from the program's χ² minimisation, is displayed in the red line. The raw data is plotted in the green points, alongside the uncertainties associated with each. The outliers - defined as points where the predicted function is three standard deviations away from the predicted function - are plotted in black. These do not contribute to the minimisation.*
 
 An additional investigation into the $\lambda_{Rb}$, $\lambda_{Sr}$ values producing a *near*-minimised χ² value, at $\chi_{min}^2 + 1 = 128.5$, produced the following contour plot.
 
