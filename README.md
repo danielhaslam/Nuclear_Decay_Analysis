@@ -42,7 +42,7 @@ With the input of the *Nuclear_data_1.csv* and *Nuclear_data_2.csv* files descri
 Clearly, the χ² minimisation on a parameter grid works well to approximate the activity function. It is found that $\chi_{min}^2 = 127.5$.
 
 ![Activity vs Time](assets/nuclear_decay_plot.png) \
-*Here, the activity function corresponding with the $\lambda_{Rb}$, $\lambda_{Sr}$ values, generated from the program's $\chi^2$ minimisation, is displayed in the red line. The raw data is plotted in the green points, alongside the uncertainties associated with each. The outliers - defined as points where the predicted function is three standard deviations away from the predicted function - are plotted in black. These do not contribute to the minimisation.*
+*Here, the activity function corresponding with the $ \lambda_{Rb} $, $ \lambda_{Sr} $ values, generated from the program's χ² minimisation, is displayed in the red line. The raw data is plotted in the green points, alongside the uncertainties associated with each. The outliers - defined as points where the predicted function is three standard deviations away from the predicted function - are plotted in black. These do not contribute to the minimisation.*
 
 An additional investigation into the $\lambda_{Rb}$, $\lambda_{Sr}$ values producing a *near*-minimised χ² value, at $\chi_{min}^2 + 1 = 128.5$, produced the following contour plot.
 
