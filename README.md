@@ -67,7 +67,7 @@ Clearly, the χ² minimisation on a parameter grid works well to approximate the
 An additional investigation into the $\lambda_{Rb}$, $\lambda_{Sr}$ values producing a *near*-minimised χ² value, at $\chi_{min}^2 + 1 = 128.5$, produced the following contour plot.
 
 ![$\chi^2$ Contour Plot](assets/chi_squared_contour_plot.png) \
-*Here, the contour line corresponding to the pairs of values that fit the raw data with a χ² value of $128.5$ is displayed in purple. In cyan and green, the maximum $\lambda_{Rb}$, $\lambda_{Sr}$ values, respectively, are plotted.*
+*Here, the contour line corresponding to the pairs of values that fit the raw data with a χ² value of $128.5$ is displayed in purple. In cyan and green, the maximum $λ_{Rb}$ and $λ_{Sr}$ values, respectively, are plotted.*
 
 ## Conclusions
 
