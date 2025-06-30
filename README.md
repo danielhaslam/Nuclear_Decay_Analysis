@@ -50,8 +50,8 @@ The script:
 - Identifies and removes outliers
 - Performs a nonlinear chi-squared minimization to fit both decay constants simultaneously
 - Computes:
-  - λₛᵣ and λᵣ_b (decay constants)
-  - t½ for both isotopes
+  - $λ_{Sr}$ and $λ_{Rb}$ (decay constants)
+  - $t_{1/2}$ for both isotopes
   - Uncertainties using contour analysis
   - χ², reduced χ²
 
