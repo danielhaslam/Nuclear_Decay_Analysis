@@ -29,7 +29,7 @@ Then, the activity of decay is given as:
 
 $A_{Rb}(t) = λ_{Rb} · N_{Rb}(t) = N_{Sr}(0) \cdot \frac{\lambda_{Rb}\lambda_{Sr}}{\lambda_{Rb} - \lambda_{Sr}} \cdot \left[ \exp(-\lambda_{Sr} t) - \exp(-\lambda_{Rb} t) \right]$.
 
-Using a parameter grid of $\lambda_{Rb}$ and $\lambda_{Sr}$ values, a non-linear $\chi^2$ minimisation fit can be performed to approximate the decay constants of both $^{79}Rb$ and $^{79}Sr$.
+Using a parameter grid of $\lambda_{Rb}$ and $\lambda_{Sr}$ values, a non-linear χ² minimisation fit can be performed to approximate the decay constants of both $^{79}Rb$ and $^{79}Sr$.
 
 Finally, the half-lives of each decay process may be calculated directly as: 
 
@@ -39,15 +39,15 @@ $t_{1/2} = \frac{\ln2}{\lambda}$.
 
 With the input of the *Nuclear_data_1.csv* and *Nuclear_data_2.csv* files described above (but not included), the following results arise.
 
-Clearly, the $\chi^2$ minimisation on a parameter grid works well to approximate the activity function. It is found that $\chi_{min}^2 = 127.5$.
+Clearly, the χ² minimisation on a parameter grid works well to approximate the activity function. It is found that $\chi_{min}^2 = 127.5$.
 
 ![Activity vs Time](assets/nuclear_decay_plot.png) \
 *Here, the activity function corresponding with the $\lambda_{Rb}$ and $\lambda_{Sr}$ values, generated from the program's $\chi^2$ minimisation, is displayed in the red line. The raw data is plotted in the green points, alongside the uncertainties associated with each. The outliers - defined as points where the predicted function is three standard deviations away from the predicted function - are plotted in black. These do not contribute to the minimisation.*
 
-An additional investigation into the {$\lambda_{Rb}$, $\lambda_{Sr}$} values producing a *near*-minimised $\chi^2$ value, at $\chi_{min}^2 + 1 = 128.5$, produced the following contour plot.
+An additional investigation into the $\lambda_{Rb}$, $\lambda_{Sr}$ values producing a *near*-minimised χ² value, at $\chi_{min}^2 + 1 = 128.5$, produced the following contour plot.
 
 ![$\chi^2$ Contour Plot](assets/chi_squared_contour_plot.png) \
-*Here, the contour line corresponding to the pairs of values that fit the raw data with a $\chi^2$ value of $128.5$ is displayed in purple. In cyan and green, the maximum $\lambda_{Rb}$ and $\lambda_{Sr}$ values, respectively, are plotted.*
+*Here, the contour line corresponding to the pairs of values that fit the raw data with a χ² value of $128.5$ is displayed in purple. In cyan and green, the maximum $\lambda_{Rb}$ and $\lambda_{Sr}$ values, respectively, are plotted.*
 
 ## Conclusions
 
