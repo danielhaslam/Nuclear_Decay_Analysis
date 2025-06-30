@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov 24 22:40:52 2022
+Created on Thu Nov 24 2022
 
 @author: Daniel Haslam
 """
@@ -101,6 +101,7 @@ def read_in_data(file_name, delimiter):
           f"couldn't be read in from {file_name} due to value error.")
 
     return file_data_array
+
 
 def validate_data(data_row_given):
     '''
@@ -418,6 +419,7 @@ def contour_plot_function(final_lambda_values_given,
     contour_plot.legend()
     contour_graph.savefig("chi_squared_contour_plot.png", bbox_inches="tight")
 
+
 def find_activity_uncertainty(final_lambda_values_given, time_value_given,
                               lambda_uncertainties_given):
     '''
@@ -565,7 +567,7 @@ def final_data_presentation(data_array_given, outliers_array_given):
     activity_request(final_lambda_values, lambda_uncertainties)
 
 
-# --- Run Program ---
+# --- Run Program --- #
 
 
 data_array = create_data_array()
