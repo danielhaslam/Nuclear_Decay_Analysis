@@ -37,10 +37,10 @@ $t_{1/2} = \frac{\ln2}{\lambda}$.
 
 ## Included Files
 
-- `nuclear_decay.py`: Main Python analysis script (converted from original `.pdf`)
-- `Nuclear_data_1.csv`, `Nuclear_data_2.csv`: Raw data files from two detectors (not included here)
-- `nuclear_decay_plot.png`: Graph showing activity vs. time with prediction and outliers
-- `chi_squared_contour_plot.png`: Contour plot showing λₛᵣ and λᵣ_b uncertainty bounds
+- `nuclear_decay.py`: Python analysis script, containing all code for this project.
+- `Nuclear_data_1.csv`, `Nuclear_data_2.csv`: Raw data files from two detectors (not included here).
+- `nuclear_decay_plot.png`: Graph showing activity vs. time with prediction and outliers.
+- `chi_squared_contour_plot.png`: Contour plot showing $λ_{Sr}$ and $λ_{Rb}$ uncertainty bounds.
 
 ## Code Functionality
 
@@ -50,10 +50,10 @@ The script:
 - Identifies and removes outliers
 - Performs a nonlinear chi-squared minimization to fit both decay constants simultaneously
 - Computes:
-  - $λ_{Sr}$ and $λ_{Rb}$ (decay constants)
-  - $t_{1/2}$ for both isotopes
-  - Uncertainties using contour analysis
-  - χ², reduced χ²
+  - $λ_{Sr}$ and $λ_{Rb}$ (decay constants).
+  - $t_{1/2}$ for both isotopes.
+  - Uncertainties using contour analysis.
+  - χ², reduced χ².
 
 ## Results
 
