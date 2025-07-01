@@ -1,7 +1,7 @@
 
 # Nuclear Decay Analysis - ⁷⁹Rb and ⁷⁹Sr Isotopes
 
-This project analyzes the decay of the radioactive isotope ⁷⁹Rb, which is part of the decay chains of ⁷⁹Zr and ⁸¹Nb. The goal is to determine the decay constants and half-lives of both ⁷⁹Sr and ⁷⁹Rb using experimental data.
+This project analyses the decay of the radioactive isotope ⁷⁹Rb, which is part of the decay chains of ⁷⁹Zr and ⁸¹Nb. The overarching goal is to determine the decay constants and half-lives of both ⁷⁹Sr and ⁷⁹Rb using experimental data.
 
 ## Background
 
